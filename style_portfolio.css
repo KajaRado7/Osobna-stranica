@@ -1,0 +1,97 @@
+a{
+  color:white;
+  text-decoration: none;
+}
+
+
+.button{
+  background-color:palevioletred;
+  border: none;
+  color: white;
+  padding: 16px 400px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Century Gothic',sans-serif;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+* {
+  box-sizing: border-box;
+}
+
+  body {
+    font-family: 'Century Gothic',sans-serif;
+    margin: 0;
+    padding:0;
+    background: url("images/cvijece.jpg") no-repeat;
+    background-size:center;
+  }
+  
+ 
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+    text-align: center;
+  }
+
+  P{
+      text-align: center;
+  }
+
+  .row {
+    margin: 8px -16px;
+  }
+  
+  
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+
+  .column {
+    
+    float: left;
+    width: 25%;
+  }
+  
+ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .content {
+    background-color:white;
+    padding: 10px;
+  }
+  
+ 
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+ 
